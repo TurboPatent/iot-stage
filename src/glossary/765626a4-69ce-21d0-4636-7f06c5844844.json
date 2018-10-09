@@ -1,0 +1,4 @@
+{
+  "term": "L2TP",
+  "definition": "Layer 2 Tunneling Protocol, a tunneling protocol used to support virtual private networks (VPNs) or as part of the delivery of services by Internet Service Providers. It does not provide any encryption or confidentiality by itself, relying on an encryption protocol that it passes within the tunnel to provide privacy."
+}

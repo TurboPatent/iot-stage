@@ -1,0 +1,4 @@
+{
+  "term": "LPLN",
+  "definition": "Low Power Lossy Networks, networks comprised of embedded devices with limited power, memory, and processing resources. LPLNs are typically optimized for energy efficiency, may use BLE and can be applied to industrial monitoring, building automation, connected homes, healthcare, environmental monitoring, urban sensor networks, asset tracking, and more."
+}

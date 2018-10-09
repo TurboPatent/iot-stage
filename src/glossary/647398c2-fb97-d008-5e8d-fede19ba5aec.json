@@ -1,0 +1,4 @@
+{
+  "term": "IGPM",
+  "definition": "Internet Group Management Protocol, a communication protocol based on the IP protocol and is used to support group communication. IGMP allows for IP-multicasting that enables the transmission of IP packages to many receivers with one transmission"
+}

@@ -1,0 +1,439 @@
+{
+  "name": "iot-template-stage",
+  "description": "Internet of Things",
+  "owner": {
+    "login": "TurboPatent",
+    "type": "organization"
+  },
+  "license": "MIT",
+  "isPrivate": false,
+  "details": {
+    "counts": {
+      "termCount": 0,
+      "claimCount": 1,
+      "independentCount": 1,
+      "drawingCount": 8,
+      "glossaryCount": 21
+    },
+    "briefDescriptions": [
+      "<p><b>Fig. 1</b> illustrates an <span data-role=\"tag\" data-value=\"4b09bf94-0ed6-b86a-b419-85f1e2aece55\" id=\"idf9b9402d-4ef4-770c-9cb7-f656b13d6baa\" data-type=\"drawingObject\">IoT system 100</span> in accordance with one embodiment.</p>",
+      "<p><b>Fig. 2</b> illustrates an <span data-role=\"tag\" data-value=\"16c370bc-6f82-ad84-2d8d-ee9dd86142e1\" id=\"idf44d91fe-fe99-9f1b-2abc-558e9350fbe1\" data-type=\"drawingObject\">IoT system 200</span> in accordance with one embodiment.</p>",
+      "<p><b>Fig. 3</b> illustrates an <span data-role=\"tag\" data-value=\"c5258bda-bd40-e0f6-d905-fc58c5498bcd\" id=\"idad06ed3e-adf4-e69e-61f5-04445f3738d3\" data-type=\"drawingObject\">IoT system 300</span> in accordance with one embodiment.</p>",
+      "<p><b>Fig. 4</b> illustrates an <span data-role=\"tag\" data-value=\"f8e39d08-3b46-4e35-cdb0-c37b436b2b49\" id=\"ida394db7d-3ac2-2b94-9c26-a315a8c994ad\" data-type=\"drawingObject\">IoT system 400</span> in accordance with one embodiment.</p>",
+      "<p><b>Fig. 5</b> illustrates an embodiment of an <span data-role=\"tag\" data-value=\"ffa56e9f-87c9-2781-cd7e-9051aedae7a7\" id=\"id4c81c3c4-558d-5669-578e-9979e1c7f9aa\" data-type=\"drawingObject\">IoT device 500</span>&nbsp;to&nbsp;implement components and process steps of the system&nbsp;described&nbsp;herein.</p>",
+      "<p><b>Fig. 6</b> &nbsp;illustrates an embodiment of an &nbsp;<span data-role=\"tag\" data-value=\"ad851d84-99c2-939e-bd40-001482bc40ff\" id=\"id6abe196f-f707-3d7d-c0b6-ed4a6261fd25\" data-type=\"drawingObject\">IoT device 600</span>.</p>",
+      "<p><b>Fig. 7</b> &nbsp;illustrates an embodiment of an &nbsp;<span data-role=\"tag\" data-value=\"b1b36bf1-6e35-bed2-a626-c7541e0b9d77\" id=\"idb80e7bc0-e558-bf67-2f6f-d514923c499d\" data-type=\"drawingObject\">IoT device 700</span>.</p>",
+      "<p><b>Fig. 8</b> illustrates a diagrammatic representation of an <span data-role=\"tag\" data-value=\"bcedfc73-ab5a-71d2-fc71-28b77bff8f4d\" id=\"id7eabefcd-550d-e8b6-ff50-4e1d88e7b590\" data-type=\"drawingObject\">IoT device 800</span> in the form of a computer system within which a set of instructions may be executed for causing the machine to perform any one or more of the IoT functionalities discussed herein, according to an example embodiment.</p>"
+    ],
+    "parts": [
+      {
+        "name": "IoT system",
+        "number": 100
+      },
+      {
+        "name": "IoT devices",
+        "number": 102
+      },
+      {
+        "name": "wide area network",
+        "number": 104
+      },
+      {
+        "name": "server system",
+        "number": 106
+      },
+      {
+        "name": "proxy server",
+        "number": 108
+      },
+      {
+        "name": "IoT system",
+        "number": 200
+      },
+      {
+        "name": "IoT devices",
+        "number": 202
+      },
+      {
+        "name": "wide area network",
+        "number": 204
+      },
+      {
+        "name": "server system",
+        "number": 206
+      },
+      {
+        "name": "gateway device",
+        "number": 208
+      },
+      {
+        "name": "proxy server",
+        "number": 210
+      },
+      {
+        "name": "IoT system",
+        "number": 300
+      },
+      {
+        "name": "IoT devices",
+        "number": 302
+      },
+      {
+        "name": "wide area network",
+        "number": 304
+      },
+      {
+        "name": "server system",
+        "number": 306
+      },
+      {
+        "name": "gateway device",
+        "number": 308
+      },
+      {
+        "name": "proxy server",
+        "number": 310
+      },
+      {
+        "name": "IoT system",
+        "number": 400
+      },
+      {
+        "name": "IoT devices",
+        "number": 402
+      },
+      {
+        "name": "wide area network",
+        "number": 404
+      },
+      {
+        "name": "server system",
+        "number": 406
+      },
+      {
+        "name": "gateway device",
+        "number": 408
+      },
+      {
+        "name": "proxy server",
+        "number": 410
+      },
+      {
+        "name": "IoT device",
+        "number": 500
+      },
+      {
+        "name": "CPU",
+        "number": 502
+      },
+      {
+        "name": "input devices",
+        "number": 504
+      },
+      {
+        "name": "memory",
+        "number": 506
+      },
+      {
+        "name": "output devices",
+        "number": 508
+      },
+      {
+        "name": "storage devices",
+        "number": 510
+      },
+      {
+        "name": "network interface",
+        "number": 512
+      },
+      {
+        "name": "logic",
+        "number": 514
+      },
+      {
+        "name": "IoT device",
+        "number": 600
+      },
+      {
+        "name": "antenna",
+        "number": 602
+      },
+      {
+        "name": "control logic",
+        "number": 604
+      },
+      {
+        "name": "wireless communication logic",
+        "number": 606
+      },
+      {
+        "name": "memory",
+        "number": 608
+      },
+      {
+        "name": "power manager",
+        "number": 610
+      },
+      {
+        "name": "battery",
+        "number": 612
+      },
+      {
+        "name": "user interface logic",
+        "number": 614
+      },
+      {
+        "name": "logic",
+        "number": 616
+      },
+      {
+        "name": "IoT device",
+        "number": 700
+      },
+      {
+        "name": "antenna",
+        "number": 702
+      },
+      {
+        "name": "antenna",
+        "number": 704
+      },
+      {
+        "name": "signal processing and system control",
+        "number": 706
+      },
+      {
+        "name": "wireless communication",
+        "number": 708
+      },
+      {
+        "name": "SIM",
+        "number": 710
+      },
+      {
+        "name": "speaker",
+        "number": 712
+      },
+      {
+        "name": "vibration generator",
+        "number": 714
+      },
+      {
+        "name": "memory",
+        "number": 716
+      },
+      {
+        "name": "power manager",
+        "number": 718
+      },
+      {
+        "name": "battery",
+        "number": 720
+      },
+      {
+        "name": "user interface",
+        "number": 722
+      },
+      {
+        "name": "camera",
+        "number": 724
+      },
+      {
+        "name": "image processing",
+        "number": 726
+      },
+      {
+        "name": "wireless communication logic",
+        "number": 728
+      },
+      {
+        "name": "audio driver",
+        "number": 730
+      },
+      {
+        "name": "haptic driver",
+        "number": 732
+      },
+      {
+        "name": "IoT device",
+        "number": 800
+      },
+      {
+        "name": "processors",
+        "number": 802
+      },
+      {
+        "name": "memory",
+        "number": 804
+      },
+      {
+        "name": "processor",
+        "number": 806
+      },
+      {
+        "name": "instructions",
+        "number": 808
+      },
+      {
+        "name": "processor",
+        "number": 810
+      },
+      {
+        "name": "main memory",
+        "number": 812
+      },
+      {
+        "name": "static memory",
+        "number": 814
+      },
+      {
+        "name": "storage unit",
+        "number": 816
+      },
+      {
+        "name": "machine-readable medium",
+        "number": 818
+      },
+      {
+        "name": "network",
+        "number": 820
+      },
+      {
+        "name": "devices",
+        "number": 822
+      },
+      {
+        "name": "coupling",
+        "number": 824
+      },
+      {
+        "name": "coupling",
+        "number": 826
+      },
+      {
+        "name": "output components",
+        "number": 828
+      },
+      {
+        "name": "input components",
+        "number": 830
+      },
+      {
+        "name": "biometric components",
+        "number": 832
+      },
+      {
+        "name": "motion components",
+        "number": 834
+      },
+      {
+        "name": "environmental components",
+        "number": 836
+      },
+      {
+        "name": "position components",
+        "number": 838
+      },
+      {
+        "name": "communication components",
+        "number": 840
+      },
+      {
+        "name": "I/O components",
+        "number": 842
+      },
+      {
+        "name": "bus",
+        "number": 844
+      }
+    ],
+    "terms": [],
+    "glossary": [
+      {
+        "term": "6LoWPAN",
+        "definition": "a communication protocol that compresses Ipv6 packages for communication by small, low power-devices."
+      },
+      {
+        "term": "802.11",
+        "definition": "a family of wireless communication protocols and technologies commonly referred to as WiFi. Examples of 802.11 are variations such as 802.11a, 802.11b, 802.11g, 802.11ah, and 802.11i."
+      },
+      {
+        "term": "access point",
+        "definition": "a node that allows users or devices to authenticate to and utilize a network. Access points often implement 802.11 wireless communication."
+      },
+      {
+        "term": "beacon",
+        "definition": "wireless devices that communicate location signals indoors, typically without the need for GPS. "
+      },
+      {
+        "term": "Bluetooth Low Energy (BLE)",
+        "definition": "a version of Bluetooth technology that consumes lower power than conventional Bluetooth. BLE is desigend for use by portable devices and networking implementations such as Bluetooth Mesh, a Bluetooth topology that allows devices to be connected together, sending/repeating commands from the hub to any connected device. Apple’s iBeacon is an example of a BLE application."
+      },
+      {
+        "term": "Bluetooth",
+        "definition": "a familiy of wireless communication technologies for exchanging data over short distances (using short-wavelength UHF radio waves in the ISM band from 2.4 to 2.485 GHz[3]) from fixed and mobile devices. Variations of Bluetooth are many, including Bluetooth Low Energy, Class 1 Bluetooth (for communications over 100m, up to 1km) and Class 2 Bluetooth (10-20m range)."
+      },
+      {
+        "term": "gateway",
+        "definition": "a device that operates to bridge communication between two network systems. "
+      },
+      {
+        "term": "iBeacon",
+        "definition": "a technology introduced by Apple that uses sensors to locate iOS or Android devices indoors and can send them notifications via Bluetooth Low Energy (BLE). "
+      },
+      {
+        "term": "IGPM",
+        "definition": "Internet Group Management Protocol, a communication protocol based on the IP protocol and is used to support group communication. IGMP allows for IP-multicasting that enables the transmission of IP packages to many receivers with one transmission"
+      },
+      {
+        "term": "IIOT",
+        "definition": "Industrial Internet of Things, encompassing connected large-scale machinery and industrial systems such as factory-floor monitoring, HVAC, smart lighting, and security. For example, equipment can send real-time information to an application so operators can better understand how efficiently that equipment is running. Also referred to as Industry 4.0, Industrie 4.0, and Industrial IoT."
+      },
+      {
+        "term": "IPSEC",
+        "definition": "Internet Protocol Security, a set of protocols that provide authentication and encryption to Internet Protocol (IP) packets, adding an extra layer of security on IP communications."
+      },
+      {
+        "term": "IPv6",
+        "definition": "a newer Internet protocol that provides more addresses than the IPv4 protocol. An IPv6 address is a 128-bit alphanumeric string that identifies an endpoint device in the Internet Protocol Version 6 (IPv6) addressing scheme."
+      },
+      {
+        "term": "L2TP",
+        "definition": "Layer 2 Tunneling Protocol, a tunneling protocol used to support virtual private networks (VPNs) or as part of the delivery of services by Internet Service Providers. It does not provide any encryption or confidentiality by itself, relying on an encryption protocol that it passes within the tunnel to provide privacy."
+      },
+      {
+        "term": "LPLN",
+        "definition": "Low Power Lossy Networks, networks comprised of embedded devices with limited power, memory, and processing resources. LPLNs are typically optimized for energy efficiency, may use BLE and can be applied to industrial monitoring, building automation, connected homes, healthcare, environmental monitoring, urban sensor networks, asset tracking, and more."
+      },
+      {
+        "term": "MAC layer",
+        "definition": "media access control sublayer, a layer 2 communication technology that along with the logical link control (LLC) sublayer together make up the data link layer. Within that data link layer, the LLC provides flow control and multiplexing for the logical linkwhile the MAC provides flow control and multiplexing for the transmission medium.\nThese two sublayers together correspond to layer 2 of the OSI model. In devices implementing IEEE 802 standards, the MAC provides a control abstraction of the physical layer such that the complexities of physical link control are invisible to the LLC and upper layers of the network stack. Thus any LLC block (and higher layers) may be used with any MAC. In turn, the MAC is formally connected to the PHY via a media-independent interface. The MAC is typically integrated with the PHY within the same device package, although in theory any MAC may be used with any PHY, independent of the transmission medium."
+      },
+      {
+        "term": "PHY",
+        "definition": "the physical layer of the OSI model, the circuitry required to implement physical layer functions."
+      },
+      {
+        "term": "NFC",
+        "definition": "near field communications,a set of communication protocols that enable two electronic devices, one of which is usually a portable device such as a smartphone, to establish communication by bringing them within 4 cm (1.6 in) of each other. \nNFC devices are often used in contactless payment systems, similar to those used in credit cards and electronic ticket smartcards and allow mobile payment to replace/supplement these systems. This is sometimes referred to as NFC/CTLS (Contactless) or CTLS NFC. NFC is used for social networking, for sharing contacts, photos, videos or files. NFC-enabled devices can act as electronic identity documents and keycards. NFC offers a low-speed connection with simple setup that can be used to bootstrap more capable wireless connections"
+      },
+      {
+        "term": "RFID",
+        "definition": "radio frequency ID, devices and systems that utilize electromagnetic fields to automatically identify and track tags attached to objects. The tags contain electronically-stored information. Passive tags collect energy from a nearby RFID reader's interrogating radio waves. Active tags have a local power source (such as a battery) and may operate hundreds of meters from the RFID reader. Unlike a barcode, the tag need not be within the line of sight of the reader, so it may be embedded in the tracked object. "
+      },
+      {
+        "term": "Sigfox",
+        "definition": "a low-bandwidth, wireless protocol that provides improved range and obstacle penetration for short messages over some other IoT communication technologies."
+      },
+      {
+        "term": "Thread protocol",
+        "definition": "an IPv6-based, low-power mesh networking technology for IoT products, based on 6LoWPAN."
+      },
+      {
+        "term": "Zigbee",
+        "definition": "short range wireless networking protocol that primarily operates on the 2.4 GHz frequency spectrum. ZigBee devices connect in a mesh topology, forwarding messages from controlling nodes to slaves, which repeat commands to other connected nodes."
+      }
+    ]
+  },
+  "repository": "https://github.com/TurboPatent/iot-template-stage"
+}

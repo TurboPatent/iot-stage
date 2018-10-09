@@ -1,0 +1,4 @@
+{
+  "term": "Zigbee",
+  "definition": "short range wireless networking protocol that primarily operates on the 2.4 GHz frequency spectrum. ZigBee devices connect in a mesh topology, forwarding messages from controlling nodes to slaves, which repeat commands to other connected nodes."
+}

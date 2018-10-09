@@ -1,0 +1,4 @@
+{
+  "term": "Bluetooth Low Energy (BLE)",
+  "definition": "a version of Bluetooth technology that consumes lower power than conventional Bluetooth. BLE is desigend for use by portable devices and networking implementations such as Bluetooth Mesh, a Bluetooth topology that allows devices to be connected together, sending/repeating commands from the hub to any connected device. Apple’s iBeacon is an example of a BLE application."
+}
