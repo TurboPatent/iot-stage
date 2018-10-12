@@ -1,5 +1,5 @@
 {
-  "name": "iot-template-stage",
+  "name": "iot-stage",
   "description": "Internet of Things",
   "owner": {
     "login": "TurboPatent",
@@ -435,5 +435,5 @@
       }
     ]
   },
-  "repository": "https://github.com/TurboPatent/iot-template-stage"
+  "repository": "https://github.com/TurboPatent/iot-stage"
 }
