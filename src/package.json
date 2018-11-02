@@ -354,24 +354,60 @@
         "definition": "a communication protocol that compresses Ipv6 packages for communication by small, low power-devices."
       },
       {
-        "term": "802.11",
-        "definition": "a family of wireless communication protocols and technologies commonly referred to as WiFi. Examples of 802.11 are variations such as 802.11a, 802.11b, 802.11g, 802.11ah, and 802.11i."
+        "term": "Bluetooth",
+        "definition": "a familiy of wireless communication technologies for exchanging data over short distances (using short-wavelength UHF radio waves in the ISM band from 2.4 to 2.485 GHz[3]) from fixed and mobile devices. Variations of Bluetooth are many, including Bluetooth Low Energy, Class 1 Bluetooth (for communications over 100m, up to 1km) and Class 2 Bluetooth (10-20m range)."
       },
       {
-        "term": "access point",
-        "definition": "a node that allows users or devices to authenticate to and utilize a network. Access points often implement 802.11 wireless communication."
+        "term": "IPv6",
+        "definition": "a newer Internet protocol that provides more addresses than the IPv4 protocol. An IPv6 address is a 128-bit alphanumeric string that identifies an endpoint device in the Internet Protocol Version 6 (IPv6) addressing scheme."
       },
       {
-        "term": "beacon",
-        "definition": "wireless devices that communicate location signals indoors, typically without the need for GPS. "
+        "term": "PHY",
+        "definition": "the physical layer of the OSI model, the circuitry required to implement physical layer functions."
+      },
+      {
+        "term": "Zigbee",
+        "definition": "short range wireless networking protocol that primarily operates on the 2.4 GHz frequency spectrum. ZigBee devices connect in a mesh topology, forwarding messages from controlling nodes to slaves, which repeat commands to other connected nodes."
+      },
+      {
+        "term": "Thread protocol",
+        "definition": "an IPv6-based, low-power mesh networking technology for IoT products, based on 6LoWPAN."
+      },
+      {
+        "term": "Sigfox",
+        "definition": "a low-bandwidth, wireless protocol that provides improved range and obstacle penetration for short messages over some other IoT communication technologies."
       },
       {
         "term": "Bluetooth Low Energy (BLE)",
         "definition": "a version of Bluetooth technology that consumes lower power than conventional Bluetooth. BLE is desigend for use by portable devices and networking implementations such as Bluetooth Mesh, a Bluetooth topology that allows devices to be connected together, sending/repeating commands from the hub to any connected device. Apple’s iBeacon is an example of a BLE application."
       },
       {
-        "term": "Bluetooth",
-        "definition": "a familiy of wireless communication technologies for exchanging data over short distances (using short-wavelength UHF radio waves in the ISM band from 2.4 to 2.485 GHz[3]) from fixed and mobile devices. Variations of Bluetooth are many, including Bluetooth Low Energy, Class 1 Bluetooth (for communications over 100m, up to 1km) and Class 2 Bluetooth (10-20m range)."
+        "term": "IGPM",
+        "definition": "Internet Group Management Protocol, a communication protocol based on the IP protocol and is used to support group communication. IGMP allows for IP-multicasting that enables the transmission of IP packages to many receivers with one transmission"
+      },
+      {
+        "term": "NFC",
+        "definition": "near field communications,a set of communication protocols that enable two electronic devices, one of which is usually a portable device such as a smartphone, to establish communication by bringing them within 4 cm (1.6 in) of each other. \nNFC devices are often used in contactless payment systems, similar to those used in credit cards and electronic ticket smartcards and allow mobile payment to replace/supplement these systems. This is sometimes referred to as NFC/CTLS (Contactless) or CTLS NFC. NFC is used for social networking, for sharing contacts, photos, videos or files. NFC-enabled devices can act as electronic identity documents and keycards. NFC offers a low-speed connection with simple setup that can be used to bootstrap more capable wireless connections"
+      },
+      {
+        "term": "L2TP",
+        "definition": "Layer 2 Tunneling Protocol, a tunneling protocol used to support virtual private networks (VPNs) or as part of the delivery of services by Internet Service Providers. It does not provide any encryption or confidentiality by itself, relying on an encryption protocol that it passes within the tunnel to provide privacy."
+      },
+      {
+        "term": "RFID",
+        "definition": "radio frequency ID, devices and systems that utilize electromagnetic fields to automatically identify and track tags attached to objects. The tags contain electronically-stored information. Passive tags collect energy from a nearby RFID reader's interrogating radio waves. Active tags have a local power source (such as a battery) and may operate hundreds of meters from the RFID reader. Unlike a barcode, the tag need not be within the line of sight of the reader, so it may be embedded in the tracked object. "
+      },
+      {
+        "term": "IIOT",
+        "definition": "Industrial Internet of Things, encompassing connected large-scale machinery and industrial systems such as factory-floor monitoring, HVAC, smart lighting, and security. For example, equipment can send real-time information to an application so operators can better understand how efficiently that equipment is running. Also referred to as Industry 4.0, Industrie 4.0, and Industrial IoT."
+      },
+      {
+        "term": "access point",
+        "definition": "a node that allows users or devices to authenticate to and utilize a network. Access points often implement 802.11 wireless communication."
+      },
+      {
+        "term": "802.11",
+        "definition": "a family of wireless communication protocols and technologies commonly referred to as WiFi. Examples of 802.11 are variations such as 802.11a, 802.11b, 802.11g, 802.11ah, and 802.11i."
       },
       {
         "term": "gateway",
@@ -382,56 +418,20 @@
         "definition": "a technology introduced by Apple that uses sensors to locate iOS or Android devices indoors and can send them notifications via Bluetooth Low Energy (BLE). "
       },
       {
-        "term": "IGPM",
-        "definition": "Internet Group Management Protocol, a communication protocol based on the IP protocol and is used to support group communication. IGMP allows for IP-multicasting that enables the transmission of IP packages to many receivers with one transmission"
-      },
-      {
-        "term": "IIOT",
-        "definition": "Industrial Internet of Things, encompassing connected large-scale machinery and industrial systems such as factory-floor monitoring, HVAC, smart lighting, and security. For example, equipment can send real-time information to an application so operators can better understand how efficiently that equipment is running. Also referred to as Industry 4.0, Industrie 4.0, and Industrial IoT."
-      },
-      {
-        "term": "IPSEC",
-        "definition": "Internet Protocol Security, a set of protocols that provide authentication and encryption to Internet Protocol (IP) packets, adding an extra layer of security on IP communications."
-      },
-      {
-        "term": "IPv6",
-        "definition": "a newer Internet protocol that provides more addresses than the IPv4 protocol. An IPv6 address is a 128-bit alphanumeric string that identifies an endpoint device in the Internet Protocol Version 6 (IPv6) addressing scheme."
-      },
-      {
-        "term": "L2TP",
-        "definition": "Layer 2 Tunneling Protocol, a tunneling protocol used to support virtual private networks (VPNs) or as part of the delivery of services by Internet Service Providers. It does not provide any encryption or confidentiality by itself, relying on an encryption protocol that it passes within the tunnel to provide privacy."
+        "term": "beacon",
+        "definition": "wireless devices that communicate location signals indoors, typically without the need for GPS. "
       },
       {
         "term": "LPLN",
         "definition": "Low Power Lossy Networks, networks comprised of embedded devices with limited power, memory, and processing resources. LPLNs are typically optimized for energy efficiency, may use BLE and can be applied to industrial monitoring, building automation, connected homes, healthcare, environmental monitoring, urban sensor networks, asset tracking, and more."
       },
       {
+        "term": "IPSEC",
+        "definition": "Internet Protocol Security, a set of protocols that provide authentication and encryption to Internet Protocol (IP) packets, adding an extra layer of security on IP communications."
+      },
+      {
         "term": "MAC layer",
         "definition": "media access control sublayer, a layer 2 communication technology that along with the logical link control (LLC) sublayer together make up the data link layer. Within that data link layer, the LLC provides flow control and multiplexing for the logical linkwhile the MAC provides flow control and multiplexing for the transmission medium.\nThese two sublayers together correspond to layer 2 of the OSI model. In devices implementing IEEE 802 standards, the MAC provides a control abstraction of the physical layer such that the complexities of physical link control are invisible to the LLC and upper layers of the network stack. Thus any LLC block (and higher layers) may be used with any MAC. In turn, the MAC is formally connected to the PHY via a media-independent interface. The MAC is typically integrated with the PHY within the same device package, although in theory any MAC may be used with any PHY, independent of the transmission medium."
-      },
-      {
-        "term": "PHY",
-        "definition": "the physical layer of the OSI model, the circuitry required to implement physical layer functions."
-      },
-      {
-        "term": "NFC",
-        "definition": "near field communications,a set of communication protocols that enable two electronic devices, one of which is usually a portable device such as a smartphone, to establish communication by bringing them within 4 cm (1.6 in) of each other. \nNFC devices are often used in contactless payment systems, similar to those used in credit cards and electronic ticket smartcards and allow mobile payment to replace/supplement these systems. This is sometimes referred to as NFC/CTLS (Contactless) or CTLS NFC. NFC is used for social networking, for sharing contacts, photos, videos or files. NFC-enabled devices can act as electronic identity documents and keycards. NFC offers a low-speed connection with simple setup that can be used to bootstrap more capable wireless connections"
-      },
-      {
-        "term": "RFID",
-        "definition": "radio frequency ID, devices and systems that utilize electromagnetic fields to automatically identify and track tags attached to objects. The tags contain electronically-stored information. Passive tags collect energy from a nearby RFID reader's interrogating radio waves. Active tags have a local power source (such as a battery) and may operate hundreds of meters from the RFID reader. Unlike a barcode, the tag need not be within the line of sight of the reader, so it may be embedded in the tracked object. "
-      },
-      {
-        "term": "Sigfox",
-        "definition": "a low-bandwidth, wireless protocol that provides improved range and obstacle penetration for short messages over some other IoT communication technologies."
-      },
-      {
-        "term": "Thread protocol",
-        "definition": "an IPv6-based, low-power mesh networking technology for IoT products, based on 6LoWPAN."
-      },
-      {
-        "term": "Zigbee",
-        "definition": "short range wireless networking protocol that primarily operates on the 2.4 GHz frequency spectrum. ZigBee devices connect in a mesh topology, forwarding messages from controlling nodes to slaves, which repeat commands to other connected nodes."
       }
     ]
   },
